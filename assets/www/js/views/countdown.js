@@ -7,8 +7,6 @@ define(["modules/navigation", "modules/config", "modules/views", "modules/camupl
 
     var CountdownView = views.base.extend({
 
-        el: $('#ph-view-countdown')[0],
-
         viewID: 'countdown',
 
         events: {

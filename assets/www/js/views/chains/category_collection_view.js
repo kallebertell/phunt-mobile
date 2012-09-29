@@ -6,7 +6,6 @@ define(["modules/views", "modules/config", "modules/util", "./category_view"], f
 
     var CategoryCollectionView = views.base.extend({
 
-        el: $('#ph-view-chains')[0],
 
         viewID: 'chains',
 
