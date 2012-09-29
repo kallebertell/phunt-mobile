@@ -1,0 +1,40 @@
+WHAT
+===============================================================
+This is the mobile client for http://iknowwhere.net which was 
+created at a weekend hackathon, http://aaltoes.com/build-it/, 
+in March 2012. 
+
+The basic idea is to take pictures and upload them. Then other 
+people can try to guess where that picture is taken by 
+actually visiting the location and verifying it via the app.
+
+
+TECH
+===============================================================
+- Android
+- Javascript/Html/Css
+- PhoneGap / Cordova
+- RequireJS
+- jQuery
+- Backbone
+
+
+DEVELOP
+===============================================================
+There's not much to see on the Java side as most of the app
+is built in html/javascript using PhoneGap/Cordova to access 
+some Phone APIs.
+
+- You can use Eclipse with Google's Android plugin to deploy 
+  to a development phone.
+- You can use Chrome to develop on the desktop (resize to mimic 
+  a mobile screen). Note that you'll have to start chrome with 
+  some flags to allow execution of javascript from "file://"
+  urls.  
+- You'll probably want the backend project too (phunt-web)
+
+The html of our webview:
+assets/www/index.html
+
+The RequireJS data-main is here:
+assets/www/js/main.js
